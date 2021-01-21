@@ -1,0 +1,17 @@
+.App {
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: teal;
+}
+.heading {
+  color: white;
+  letter-spacing: 0.1rem;
+}
+p {
+  color: #aaa;
+}
