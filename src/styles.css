@@ -1,17 +1,74 @@
-.App {
-  max-width: 600px;
-  margin: auto;
-  padding: 2rem;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,300&family=Potta+One&display=swap");
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-  font-family: "Lato", sans-serif;
   background-color: teal;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1.5px;
 }
-.heading {
-  color: white;
-  letter-spacing: 0.1rem;
+h1 {
+  color: rgba(80, 8, 8, 0.617);
+  text-align: center;
+  padding: 10px 3px;
+  margin: 0 auto;
+  letter-spacing: 1px;
 }
-p {
-  color: #aaa;
+h2 {
+  font-family: "Pota One", cursive;
+  color: black;
+  font-size: 1.2rem;
+  margin: 0 auto;
+  display: block;
+}
+
+img {
+  width: 450px;
+  display: block;
+  height: 250px;
+  margin: 0 auto;
+}
+.container {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+.container-fluid {
+  width: 500px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+button {
+  transition: all 0.4s ease-in-out;
+}
+button:hover {
+  transform: scale(1.1);
+  background-color: rgb(77, 164, 175);
+}
+button {
+  margin: 0 0.5rem;
+  padding: 8px 3px;
+  width: 100px;
+  font-size: 0.9rem;
+  border-radius: 10px;
+  background-color: rgb(31, 138, 146);
+  box-shadow: 11px 2px 43px #333;
+  border: none;
+}
+
+.container-fluid > ul > li > div {
+  font-size: 1.2rem;
+  color: rgb(73, 72, 12);
+  display: inline-block;
+  width: 250px;
+  padding: 0 50px;
+  font-family: "Pota One", cursive;
+}
+.container-fluid > ul > li {
+  list-style: none;
 }
